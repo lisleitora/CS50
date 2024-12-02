@@ -1,3 +1,3 @@
 -- database: cyberchase.db
 SELECT title FROM episodes
-WHERE topic = NULL
+WHERE topic IS NULL
