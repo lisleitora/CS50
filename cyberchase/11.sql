@@ -1,3 +1,4 @@
+-- database: cyberchase.db
 SELECT title FROM episodes
 WHERE season = 5
-ORDER BY 
+ORDER BY title DESC
