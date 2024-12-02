@@ -1,2 +1,3 @@
-SELECT title FROM episodes
-WHERE 
+-- database: cyberchase.db
+SELECT title, topic FROM episodes
+WHERE topic LIKE '%fraction%'
