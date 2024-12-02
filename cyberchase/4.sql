@@ -1,2 +1,3 @@
+-- database: cyberchase.db
 SELECT title FROM episodes
-WHERE topic NOT LIKE '%'
+WHERE topic != '%'
