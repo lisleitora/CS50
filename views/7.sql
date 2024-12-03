@@ -1,5 +1,5 @@
 -- database: views.db
-SELECT brightness
+SELECT english_title
 FROM views
 WHERE artist = 'Hiroshige'
 ORDER BY brightness DESC
