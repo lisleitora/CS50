@@ -1,4 +1,4 @@
 -- database: views.db
 SELECT artist, english_title FROM views
- ORDER BY brightness
+ ORDER BY brightness DESC
 LIMIT 1
