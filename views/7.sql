@@ -1,4 +1,5 @@
 -- database: views.db
-SELECT MAX(contrast) AS 'Maximum Contrast'
+SELECT brightness
 FROM views
-WHERE artist = 'Hokusai'
+WHERE artist = 'Hiroshige'
+ORDER BY brightness DESC
