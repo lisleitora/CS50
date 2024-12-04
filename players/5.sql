@@ -1,4 +1,4 @@
 -- database: players.db
 SELECT first_name, last_name FROM players
-WHERE bats
+WHERE bats = 'R'
 ORDER BY first_name, last_name
