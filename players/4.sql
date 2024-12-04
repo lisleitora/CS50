@@ -1,4 +1,4 @@
 -- database: players.db
 SELECT first_name, last_name FROM players
-WHERE birth_country IS NOT 'USA'
+WHERE birth_country != 'USA'
 ORDER BY first_name, last_name
