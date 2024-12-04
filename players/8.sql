@@ -1,4 +1,6 @@
--- database: players.db
-SELECT first_name, last_name FROM players
-WHERE bats = 'R'
-ORDER BY first_name, last_name
+-- database: players.dbSELECT
+
+    ROUND(AVG(height), 2) AS "Average Height",
+    ROUND(AVG(weight), 2) AS "Average Weight"
+FROM players
+WHERE debut >= '2000-01-01';
