@@ -1,4 +1,3 @@
 -- database: players.db
-SELECT bats FROM players
-WHERE first_name = 'Babe'
-AND last_name = 'Ruth'
+SELECT id FROM players
+WHERE debut IS NULL
