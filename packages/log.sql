@@ -1,3 +1,4 @@
+-- database: packages.db
 
 -- *** The Lost Letter ***
 
