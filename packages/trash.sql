@@ -1,3 +1,3 @@
 -- database: packages.db
-SELECT * FROM addresses
+SELECT * FROM packages
 WHERE address LIKE '%2 Finnegan Street%'
