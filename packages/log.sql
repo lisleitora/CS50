@@ -50,8 +50,8 @@ WHERE id = '348';
 -- to discover the id of the address
 
 SELECT * FROM addresses
-WHERE address LIKE '728 Maple Place'
-OR address LIKE '109 Tileston Street';
+WHERE address LIKE '109 Tileston Street';
+--FROM address id 9873
 -- result: 4983 and 9873
 
 SELECT * FROM packages
