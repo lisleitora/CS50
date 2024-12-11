@@ -31,7 +31,7 @@ AND from_address_id IS NULL;
 SELECT * FROM addresses
 WHERE id = '50'
 -- result 50,123 Sesame Street,Residential
--- p.s. i LOVED that the duck was for one of the  sesame street muppets
+-- p.s. i LOVED that the duck was for Ernie (sesame street) SERIOUSLY!!! A-M-A-Z-I-N-G
 -- *** The Forgotten Gift ***
 
 SELECT id FROM addresses
