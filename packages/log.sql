@@ -55,7 +55,7 @@ WHERE address LIKE '109 Tileston Street';
 -- result: 4983 and 9873
 
 SELECT * FROM packages
-WHERE from_address_id = '9873';
+WHERE from_address_id = '9873' AND  to_address_id = '4983';
 -- Flowers
 -- package id: 9523
 
