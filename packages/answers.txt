@@ -5,5 +5,5 @@ At what address did the Lost Letter end up?: 2 Finnigan Street
 At what type of address did the Devious Delivery end up?:
 What were the contents of the Devious Delivery?:
 
-What are the contents of the Forgotten Gift?:
-Who has the Forgotten Gift?:
+What are the contents of the Forgotten Gift?:Chalk
+Who has the Forgotten Gift?:8681 Beacon Street
