@@ -61,10 +61,10 @@ WHERE from_address_id = '9873' AND  to_address_id = '4983';
 
 SELECT * FROM scans
 WHERE scans.package_id = '9523';
--- address id 7432
+-- driver 17
 
 
-SELECT * FROM addresses
-WHERE id = '7432';
-
+SELECT * FROM drivers
+WHERE id = '17';
+-- name Mikel
 
