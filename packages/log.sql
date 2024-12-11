@@ -29,7 +29,7 @@ WHERE contents LIKE '%duck%'
 AND from_address_id IS NULL;
 -- to address id: 50,
 SELECT * FROM addresses
-WHERE id = '50'
+WHERE id = '50';
 -- result 50,123 Sesame Street,Residential
 -- p.s. i LOVED that the duck was for Ernie (sesame street) SERIOUSLY!!! A-M-A-Z-I-N-G
 -- *** The Forgotten Gift ***
