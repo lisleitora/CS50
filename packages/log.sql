@@ -60,7 +60,7 @@ WHERE from_address_id = '9873' AND  to_address_id = '4983';
 -- package id: 9523
 
 SELECT * FROM scans
-WHERE scans.package_id = '9523' AND action = 'Drop';
+WHERE scans.package_id = '9523';
 -- address id 7432
 
 
