@@ -64,7 +64,6 @@ WHERE scans.package_id = '9523';
 -- address id 7432
 
 
-
 SELECT * FROM addresses
 WHERE id = '7432';
 
