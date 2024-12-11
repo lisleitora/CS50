@@ -5,5 +5,5 @@ OR address LIKE '109 Tileston Street';
 -- result: 4983 and 9873
 
 SELECT * FROM packages
-WHERE from_address_id = ''
-AND to_address_id = '';
+WHERE from_address_id = '4983'
+AND to_address_id = '9873';
