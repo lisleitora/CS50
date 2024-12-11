@@ -46,6 +46,4 @@ WHERE from_address_id = '4983';
 SELECT * FROM addresses
 WHERE id = '4425';
 
-SELECT * FROM packages
-WHERE from_address_id IS NULL;
--- AND from_address_id IS NULL;
+
