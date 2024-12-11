@@ -33,6 +33,10 @@ AND from_address_id IS NULL;
 -- to address id: 50,
 SELECT * FROM addresses
 WHERE id = '50';
+-- package id : 5098
+
+SELECT * FROM scans
+WHERE scans.package_id = '5098';
 -- result 50,123 Sesame Street,Residential
 -- p.s. i LOVED that the duck was for Ernie (sesame street) SERIOUSLY!!! A-M-A-Z-I-N-G
 
