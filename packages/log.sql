@@ -43,6 +43,7 @@ WHERE scans.package_id = '5098' AND action = 'Drop';
 
 SELECT * FROM addresses
 WHERE id = '348';
+-- address : 348,7 Humboldt Place,Police Station
 
 -- *** The Forgotten Gift ***
 
