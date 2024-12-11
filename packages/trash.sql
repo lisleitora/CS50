@@ -14,5 +14,6 @@ WHERE scans.package_id = '384'
 AND action = 'Drop';
 -- result address id:854
 
-SELECT * FROM addresses
+SELECT address, type FROM addresses
 WHERE id = '854';
+-- result: 2 Finnigan Street, Residential
