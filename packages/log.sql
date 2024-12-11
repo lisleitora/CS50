@@ -34,7 +34,7 @@ WHERE id = '50';
 -- p.s. i LOVED that the duck was for Ernie (sesame street) SERIOUSLY!!! A-M-A-Z-I-N-G
 -- *** The Forgotten Gift ***
 
-SELECT id FROM addresses
+SELECT * FROM addresses
 WHERE address LIKE '728 Maple Place'
 OR address LIKE '109 Tileston Street';
 -- result: 4983 and 9873
