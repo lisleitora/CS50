@@ -25,6 +25,8 @@ WHERE id = '854';
 
 -- *** The Devious Delivery ***
 
+-- to discover the id of the address
+
 SELECT * FROM packages
 WHERE contents LIKE '%duck%'
 AND from_address_id IS NULL;
@@ -35,6 +37,8 @@ WHERE id = '50';
 -- p.s. i LOVED that the duck was for Ernie (sesame street) SERIOUSLY!!! A-M-A-Z-I-N-G
 
 -- *** The Forgotten Gift ***
+
+-- to discover the id of the address
 
 SELECT * FROM addresses
 WHERE address LIKE '728 Maple Place'
