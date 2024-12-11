@@ -2,6 +2,6 @@
 -- SELECT * FROM addresses
 -- WHERE address LIKE '%2%Finnegan%Street%uptown%'
 
--- SELECT * FROM addresses
--- WHERE address = '900 Somerville Avenue'
+ SELECT * FROM packages
+WHERE from_address_id = '432'
 -- 432
