@@ -12,6 +12,7 @@ AND contents LIKE '%Congratulatory%';
 SELECT * FROM scans
 WHERE scans.package_id = '384'
 AND action = 'Drop';
+-- result address id:854
 
 SELECT * FROM addresses
-WHERE
+WHERE id = '854';
