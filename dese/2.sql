@@ -1,2 +1,3 @@
-SELECT schools.name, schools.city FROM districts
-WHERE districts.state LIKE '%%'
+-- database: dese.db
+SELECT name FROM districts
+WHERE districts.name LIKE '%non-op%'
