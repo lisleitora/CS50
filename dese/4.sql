@@ -1,5 +1,5 @@
 -- database: dese.db
-SELECT city, COUNT(id) as  FROM schools
+SELECT city, COUNT(id) as count FROM schools
 WHERE type NOT LIKE 'Charter%'
-ORDER BY
-
+ORDER BY count
+LIMIT 10
