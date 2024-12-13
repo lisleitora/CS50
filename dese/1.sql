@@ -1,3 +1,3 @@
 -- database: dese.db
-SELECT id FROM districts
+SELECT name,  FROM districts
 WHERE name LIKE '%Massachusetts%'
