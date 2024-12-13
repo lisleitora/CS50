@@ -1,2 +1,2 @@
-SELECT name FROM districts
+SELECT  FROM districts
 WHERE districts.name LIKE
