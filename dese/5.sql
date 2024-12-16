@@ -1,6 +1,6 @@
 -- database: dese.db
 SELECT city, COUNT(schools.id) as count FROM schools
 WHERE type = 'Public School'
-AND count 
 GROUP BY city
+HAVING count <= 3
 ORDER BY count DESC, city
