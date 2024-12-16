@@ -1,5 +1,4 @@
-SELECT districts.name, per_pupil_expenditure FROM districts
-JOIN expenditures ON (districts.id = expenditures.district_id)
-WHERE type = 'Public School District'
-GROUP BY districts.id
-ORDER BY per_pupil_expenditure DESC
+-- database: dese.db
+SELECT schools.name, per_pupil_expenditure FROM schools
+JOIN expenditures ON (schools.district_id = expenditures.district_id)
+ORDER BY per_pupil_expenditure DESC, schools.name
