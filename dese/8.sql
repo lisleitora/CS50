@@ -1,3 +1,5 @@
-SELECT schools.name FROM schools
-JOIN expenditure ON (schools.district_id = expenditure.district_id)
+-- database: dese.db
+SELECT schools.name, pupils FROM schools
+JOIN expenditures ON (schools.district_id = expenditures.district_id)
 JOIN districts ON (districts.id = schools.district_id)
+GROUP BY districts.id
