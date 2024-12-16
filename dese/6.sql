@@ -1,2 +1,3 @@
+-- database: dese.db
 SELECT schools.name FROM schools
-JOIN 
+JOIN graduation_rates ON 
