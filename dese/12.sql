@@ -9,3 +9,4 @@ AND se.exemplary > (
  AND e.per_pupil_expenditure > (
  SELECT AVG(per_pupil_expenditure)
  FROM expenditures)
+ORDER BY se.exemplary DESC, per_pupil_expenditure DESC
