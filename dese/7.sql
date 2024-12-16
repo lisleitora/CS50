@@ -1,5 +1,5 @@
 -- database: dese.db
-SELECT name FROM schools
+SELECT schools.name FROM schools
 JOIN districts ON (district_id = districts.id)
-WHERE city LIKE '%cambridge%'
-AND name LIKE '%cambridge%'
+WHERE schools.city LIKE '%cambridge%'
+AND districts.name LIKE '%cambridge%'
