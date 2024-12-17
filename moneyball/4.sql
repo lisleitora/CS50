@@ -1,2 +1,2 @@
-SELECT pe.year, pe.HR FROM performances AS pe
-JOIN players AS pl ON (pl.id = pe.player_id)
+SELECT year, salary FROM salaries AS s
+JOIN players AS p ON (s.player_id = p.id)
