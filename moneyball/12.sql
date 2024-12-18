@@ -1,10 +1,23 @@
 -- database: moneyball.db
-SELECT pl.first_name, pl.last_name, s.salary/pe.RBI AS dollars_per_hit
+SELECT pl.first_name, pl.last_name FROM players AS pl
+JOIN salaries AS s ON (s.player_id = pl.id)
+JOIN performances AS pe ON (pe.player_id = pl.id)
+WHERE pl.first_name IN ((SELECT pl.first_name
 FROM players AS pl
 JOIN salaries AS s ON (s.player_id = pl.id)
 JOIN performances AS pe ON (pe.player_id = pl.id
 AND pe.year = s.year)
 WHERE pe.year = '2001'
 AND pe.RBI NOT LIKE '0'
-ORDER BY dollars_per_hit, pl.first_name, pl.last_name
-LIMIT 10
+ORDER BY s.salary/pe.RBI, pl.first_name, pl.last_name
+LIMIT 10))
+ AND pl.first_name IN ((SELECT pl.first_name
+FROM players AS pl
+JOIN salaries AS s ON (s.player_id = pl.id)
+JOIN performances AS pe ON (pe.player_id = pl.id
+AND pe.year = s.year)
+WHERE pe.year = '2001'
+AND pe.H NOT LIKE '0'
+ORDER BY s.salary/pe.H, pl.first_name, pl.last_name
+LIMIT 10))
+
