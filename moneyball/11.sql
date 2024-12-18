@@ -8,5 +8,5 @@ AND pe.year = s.year)
 -- one day, no treats will be served. (how does my mom resist you? is she not human?)
 WHERE pe.year = '2001'
 AND pe.H NOT LIKE '0'
-ORDER BY dollars_per_hit
+ORDER BY dollars_per_hit, pl.first_name, pl.last_name
 LIMIT 10
