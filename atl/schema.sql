@@ -9,4 +9,7 @@ CREATE TABLE "check_in"(
     "flight" INTEGER NOT NULL
 );
 
-CREATE TABLE ""
+CREATE TABLE "airlines"(
+    "name"
+    "concourse"
+)
