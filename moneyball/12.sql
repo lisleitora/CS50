@@ -25,3 +25,5 @@ ORDER BY s.salary/pe.H, pl.first_name, pl.last_name
 LIMIT 10))
 GROUP BY pl.id
 ORDER BY pl.id;
+
+SELECT * FROM performances AS p
