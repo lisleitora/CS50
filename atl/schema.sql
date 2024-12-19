@@ -6,5 +6,5 @@ CREATE TABLE "passengers"(
 
 CREATE TABLE "check_in"(
     "datetime" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "flight"
+    "flight" 
 );
