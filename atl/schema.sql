@@ -10,6 +10,6 @@ CREATE TABLE "check_in"(
 );
 
 CREATE TABLE "airlines"(
-    "name"
-    "concourse"
+    "name" TEXT NOT NULL
+    "concourse" TEXT NOT NULL
 )
