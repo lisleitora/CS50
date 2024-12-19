@@ -26,4 +26,5 @@ LIMIT 10))
 GROUP BY pl.id
 ORDER BY pl.id;
 
-select p.H from performance as p
+SELECT p.`2B` FROM performances as p
+
