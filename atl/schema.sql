@@ -4,4 +4,6 @@ CREATE TABLE "passengers"(
     "age" INTEGER
 );
 
-CREATE TABLE ""
+CREATE TABLE "check_in"(
+
+);
