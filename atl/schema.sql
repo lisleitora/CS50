@@ -18,7 +18,7 @@ CREATE TABLE "flights"(
     "flight_number" INTEGER NOT NULL,
     "airline" TEXT,
     "from_airport" TEXT,
-    "to_airport",
-    "departure_time",
-    "arrival_time"
+    "to_airport" TEXT,
+    "departure_time" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "arrival_time" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP
 )
