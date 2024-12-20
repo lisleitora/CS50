@@ -1,7 +1,7 @@
 CREATE TABLE "passengers"(
     "first_name" TEXT NOT NULL,
     "last_name" TEXT NOT NULL,
-    "age" INTEGER
+    "age" NOT NULL INTEGER
 );
 
 CREATE TABLE "check_in"(
@@ -16,9 +16,9 @@ CREATE TABLE "airlines"(
 
 CREATE TABLE "flights"(
     "flight_number" INTEGER NOT NULL,
-    "airline" TEXT,
-    "from_airport" TEXT,
-    "to_airport" TEXT,
+    "airline" TEXT NOT NULL,
+    "from_airport" TEXT NOT NULL,
+    "to_airport" TEXT NOT NULL,
     "departure_time" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "arrival_time" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP
 )
