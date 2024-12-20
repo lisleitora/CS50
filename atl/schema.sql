@@ -21,5 +21,6 @@ CREATE TABLE "flights"(
     "to_airport" TEXT NOT NULL,
     "departure_time" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "arrival_time" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY("flight_number")
     FOREIGN KEY("airline") REFERENCES "airlines"("name")
 )
