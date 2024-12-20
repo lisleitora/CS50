@@ -10,10 +10,12 @@ CREATE TABLE "check_in"(
 );
 
 CREATE TABLE "airlines"(
-    "name" TEXT NOT NULL
+    "name" TEXT NOT NULL,
     "concourse" TEXT NOT NULL CHECK("concourse" IN ('A', 'B', 'C', 'D', 'E', 'F', 'T'))
 )
 
 CREATE TABLE "flights"(
-    "flight_number" INTEGER NOT NULL
+    "flight_number" INTEGER NOT NULL,
+    "airline" TEXT,
+    
 )
