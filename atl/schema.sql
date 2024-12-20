@@ -13,3 +13,5 @@ CREATE TABLE "airlines"(
     "name" TEXT NOT NULL
     "concourse" TEXT NOT NULL CHECK("concourse" IN ('A', 'B', 'C', 'D', 'E', 'F', 'T'))
 )
+
+CREATE TABLE
