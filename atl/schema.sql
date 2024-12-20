@@ -4,19 +4,19 @@ CREATE TABLE "passengers"(
     "age" INTEGER NOT NULL
 );
 
-CREATE TABLE "check_in"(
+CREATE TABLE "check_in" (
     "datetime" NUMERIC NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "flight" INTEGER NOT NULL,
     FOREIGN KEY("flight") REFERENCES "flights"("flight_number")
 );
 
-CREATE TABLE "airlines"(
+CREATE TABLE "airlines" (
     "name" TEXT NOT NULL,
     "concourse" TEXT NOT NULL CHECK("concourse" IN ('A', 'B', 'C', 'D', 'E', 'F', 'T')),
     PRIMARY KEY("name")
 );
 
-CREATE TABLE "flights"(
+CREATE TABLE "flights" (
     "flight_number" INTEGER NOT NULL,
     "airline" TEXT NOT NULL,
     "from_airport" TEXT NOT NULL,
