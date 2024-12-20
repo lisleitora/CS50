@@ -15,5 +15,5 @@ CREATE TABLE "airlines"(
 )
 
 CREATE TABLE "flights"(
-    
+    "flight_number" INTEGER
 )
