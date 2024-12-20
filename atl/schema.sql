@@ -14,4 +14,6 @@ CREATE TABLE "airlines"(
     "concourse" TEXT NOT NULL CHECK("concourse" IN ('A', 'B', 'C', 'D', 'E', 'F', 'T'))
 )
 
-CREATE TABLE ""
+CREATE TABLE "flights"(
+    
+)
