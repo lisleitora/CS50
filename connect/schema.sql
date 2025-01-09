@@ -7,5 +7,6 @@ PRIMARY KEY("username")
 );
 
 CREATE TABLE "schools"(
-    
+    "name" TEXT NOT NULL,
+    "type" TEXT NOT NULL,
 );
