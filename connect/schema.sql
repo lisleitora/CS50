@@ -3,5 +3,5 @@ CREATE TABLE "user"(
     "last_name" TEXT NOT NULL,
     "username" TEXT NOT NULL,
     "password" TEXT NOT NULL,
-PRIMARY KEY("password")
+PRIMARY KEY("username")
 );
