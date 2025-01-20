@@ -1,5 +1,5 @@
 -- database: private.db
-CREATE TABLE "users"(
+CREATE TABLE "cleaned_sentences"(
  "id" INTEGER NOT NULL,
     "sentence" TEXT NOT NULL,
     "first_character" INTEGER NOT NULL,
@@ -7,6 +7,11 @@ CREATE TABLE "users"(
 PRIMARY KEY("id")
 );
 
+INSERT INTO cleaned_sentences (id, sentence)
+SELECT
+    CASE
+        WHERE id IN(),
+FROM sentences;
 
 CREATE VIEW "message" AS
 SELECT substr("sentence", "character", "length") AS "phrase"
