@@ -2,12 +2,14 @@
 CREATE TABLE "users"(
  "id" INTEGER NOT NULL,
     "sentence" TEXT NOT NULL,
-    "username" TEXT NOT NULL,
-    "password" TEXT NOT NULL,
-PRIMARY KEY("username")
+    "first_character" INTEGER NOT NULL,
+    "length" INTEGER NOT NULL,
+PRIMARY KEY("id")
 );
 
 
 CREATE VIEW "message" AS
-SELECT substr("message_id", "character", "size")
+SELECT sentence substr("id", "character", "length") AS "phrase"
  FROM cleaned_sentences;
+
+SELECT "phrase" FROM "message";
