@@ -9,7 +9,7 @@ PRIMARY KEY("id")
 
 
 CREATE VIEW "message" AS
-SELECT substr("", "character", "length") AS "phrase"
+SELECT substr("sentence", "character", "length") AS "phrase"
  FROM cleaned_sentences;
 
 SELECT "phrase" FROM "message";
