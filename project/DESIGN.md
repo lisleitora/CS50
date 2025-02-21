@@ -159,7 +159,7 @@ Constraints such as primary and foreign keys ensure referential integrity and ma
 
 In this section you should include your entity relationship diagram and describe the relationships between the entities in your database.
 
-![ER Diagram](d.png)
+[![](https://mermaid.ink/img/pako:eNp9ksFugzAMQH8l8rn9Ac677rTbxMUlpiBIjIyjaqL8-xIggLpqOcXJ84udZIKKLUEBJB8t3gVd6U0cYSQZ1-mDpRvNOq_RW3Y5qtg58prDG3PnUDqy-37fU6Ut-6g6ec3zeb3ytOcXpgSHHY0lvKEObeIafKFm3lz7Wf_rlnYS8pBWV-bc55vS8MZBs-vU5KuQ6wytqq2y7c4Wk5AZUNQc6J-bymm7duk4cnABR-KwtfG5ppRXgjbkqISE2VhUks6Rw6D89eMrKFQCXUA43BsoauzHGIXBotL23PvqgP6b-YjJtsryuf6O5ZPMvzbIuZ0?type=png)](https://mermaid.live/edit#pako:eNp9ksFugzAMQH8l8rn9Ac677rTbxMUlpiBIjIyjaqL8-xIggLpqOcXJ84udZIKKLUEBJB8t3gVd6U0cYSQZ1-mDpRvNOq_RW3Y5qtg58prDG3PnUDqy-37fU6Ut-6g6ec3zeb3ytOcXpgSHHY0lvKEObeIafKFm3lz7Wf_rlnYS8pBWV-bc55vS8MZBs-vU5KuQ6wytqq2y7c4Wk5AZUNQc6J-bymm7duk4cnABR-KwtfG5ppRXgjbkqISE2VhUks6Rw6D89eMrKFQCXUA43BsoauzHGIXBotL23PvqgP6b-YjJtsryuf6O5ZPMvzbIuZ0)
 
 A User can create multiple Works (One-to-Many).
 A Work can have multiple Tags, and a Tag can be associated with multiple Works (Many-to-Many).
