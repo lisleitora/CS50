@@ -159,6 +159,8 @@ Constraints such as primary and foreign keys ensure referential integrity and ma
 
 In this section you should include your entity relationship diagram and describe the relationships between the entities in your database.
 
+![ER Diagram](d.png)
+
 A User can create multiple Works (One-to-Many).
 A Work can have multiple Tags, and a Tag can be associated with multiple Works (Many-to-Many).
 A User can Bookmark multiple Works (Many-to-Many).
