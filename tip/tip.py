@@ -7,11 +7,11 @@ def main():
 
 def dollars_to_float(d):
     # TODO
-    return float(d.replace('$', ''))
+    return float(d.removeprefix('$'))
 
 
 def percent_to_float(p):
     # TODO
-    return float(p.replace('%', ''))
+    return float(p.removesuffix('%'))
 
 main()
