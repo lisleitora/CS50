@@ -17,4 +17,5 @@ def percent_to_float(p):
     return float(p)
 
 main()
-print(percent_to_float + dollars_to_float)
+print(percent_to_float)
+print(dollars_to_float)
